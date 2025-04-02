@@ -1,0 +1,31 @@
+:root {
+  --color1: #0a0a0a;
+  --color2: #1f1f1f;
+  --color3: #f5f5f5;
+  --accent1: #6c9d7f;
+  --accent2: #9abca7;
+  --accent3: #d79233;
+  --accent4: #dda455;
+
+  --fontSize: x-large;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+
+  background-color: var(--color1);
+  color: var(--color3);
+  font-size: var(--fontSize);
+}
+
+a {
+  color: var(--accent1);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent2);
+}
