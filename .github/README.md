@@ -1,6 +1,6 @@
 # Creative Coding
 
-Dieses Repository enthält alle Projekte, die ich im Rahmen eines Creative Coding Kurses erstellt habe. Jedes Projekt experimentiert mit verschiedenen Konzepten und sind mit p5.js umgesetzt.
+Dieses Repository enthält alle Projekte, die ich im Rahmen eines Creative Coding Kurses erstellt habe. Jedes Projekt experimentiert mit verschiedenen Konzepten und ist mit p5.js umgesetzt.
 
 ## Inhaltsverzeichnis
 
