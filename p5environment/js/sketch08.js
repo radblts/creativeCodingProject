@@ -23,7 +23,7 @@ function setup() {
   let fullText = txt.join(" ");
   let words = fullText
     .toLowerCase()
-    //.replace(/[^\w\s]/g, "") -> if you want no punctuation
+    //.replace(/[^\w\s]/g, "") -> uncomment if you want no punctuation
     .split(/\s+/);
 
   buildMarkovChain(words);
@@ -59,10 +59,19 @@ function generateText(numWords) {
   let key = random(keys);
   let result = key.split(" ");
 
+  console.log("Starting key:", key); //DEBUG: Initial key that was chosen
+
   for (let i = 0; i < numWords - order; i++) {
     let nextWords = markov[key];
-    if (!nextWords) break;
+
+    if (!nextWords) {
+      console.warn("No followers for key:", key); //DEBUG: Key that has no followers
+      break;
+    }
+
     let next = random(nextWords); //-> random because the key may have multiple next words
+    console.log(`Key: "${key}" → Next words: ${nextWords.join(", ")} → Chosen: "${next}"`); //DEBUG: next words and the chosen follower
+
     result.push(next);
     key = result.slice(result.length - order).join(" ");
   }
