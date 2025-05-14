@@ -19,10 +19,11 @@ function setup() {
     }
   }
 
-  noLoop();
+  noLoop(); 
 }
 
 function draw() {
+  // Draw each cell
   for (let x = 0; x < columns; x++) {
     for (let y = 0; y < rows; y++) {
       let value = current[x][y];
@@ -32,6 +33,8 @@ function draw() {
       rect(x * cellSize, y * cellSize, cellSize, cellSize);
     }
   }
+
+  generate();
 }
 
 function mousePressed() {
@@ -45,4 +48,42 @@ function randomizeBoard() {
       current[x][y] = random([0, 1]);
     }
   }
+}
+
+function generate() {
+  for (let x = 0; x < columns; x++) {
+    for (let y = 0; y < rows; y++) {
+      let neighbors = countNeighbors(x, y);
+      let state = current[x][y];
+
+      if (state === 1 && (neighbors < 2 || neighbors > 3)) {
+        next[x][y] = 0; 
+      } else if (state === 0 && neighbors === 3) {
+        next[x][y] = 1; 
+      } else {
+        next[x][y] = state;
+      }
+    }
+  }
+
+  let temp = current;
+  current = next;
+  next = temp;
+}
+
+function countNeighbors(x, y) {
+  let total = 0;
+
+  for (let dx = -1; dx <= 1; dx++) {
+    for (let dy = -1; dy <= 1; dy++) {
+      if (dx === 0 && dy === 0) continue;
+
+      let col = (x + dx + columns) % columns;
+      let row = (y + dy + rows) % rows;
+
+      total += current[col][row];
+    }
+  }
+
+  return total;
 }
