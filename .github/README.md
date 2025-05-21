@@ -1,6 +1,6 @@
 # Creative Coding
 
-Dieses Repository enthält alle Projekte, die ich im Rahmen eines Creative Coding Kurses erstellt habe. Jedes Projekt experimentiert mit verschiedenen Konzepten und ist mit p5.js umgesetzt.
+Dieses Repository enthält alle Projekte, die ich im Rahmen eines Creative Coding-Kurses erstellt habe. Jedes Projekt experimentiert mit verschiedenen Konzepten und wurde mit **p5.js** umgesetzt.
 
 ## Inhaltsverzeichnis
 
@@ -9,7 +9,7 @@ Dieses Repository enthält alle Projekte, die ich im Rahmen eines Creative Codin
 3. [Lokale Installation](#2-lokale-installation)\
    3.1 [Repo herunterladen und extrahieren](#21-github-repo-heruterladen-und-extrahieren)\
    3.2a [In VSCode öffnen](#22a-projekt-in-vscode-öffnen)\
-   3.2b [Im Ordnerverzeichnis öffnen](#22b-projekt-im-ordnerverzeichnis-öffnen)
+   3.2b [Im Dateiexplorer öffnen](#22b-projekt-im-dateiexplorer-öffnen)
 4. [Projekte mit Live Server](#3-projekte-mit-live-server)
 5. [p5.js](#4-p5js)
 6. [Autor](#5-autor)
@@ -19,18 +19,18 @@ Dieses Repository enthält alle Projekte, die ich im Rahmen eines Creative Codin
 
 ## 2 Tools
 
-### Programmiersprachen
-- HTML: Struktur und Aufbau der Projekte
-- CSS: Gestaltung und Design der Benutzeroberflächen
-- JavaScript: Funktionalität und Interaktivität der Projekte
+### Webtechnologien
+- HTML: Struktur der Webseiten
+- CSS: Gestaltung und Layout
+- JavaScript: Interaktivität und Funktionalität
 
-### Bibliotheken und Frameworks
-- p5.js: Kreative Programmierung und visuelle Darstellungen, hauptsächlich für grafische Animationen und interaktive Kunst
+### Bibliotheken
+- p5.js: Visuelle Programmierung und kreative Codierung (z. B. Animation, generative Kunst)
 
 ### Entwicklungsumgebung
-- VSCode (v1.98.2): Haupteditor zur Entwicklung und Bearbeitung des Codes
-- Live Server Extension (v5.7.9): Lokaler Server zum Testen und Anzeigen von Projekten
-- p5.vscode (v1.2.16): Unterstützung beim Entwickeln mit p5.js durch Syntax-Highlighting und Autovervollständigung
+- VSCode (***v1.98.2***):
+- Live Server Extension (***v5.7.9***)
+- p5.vscode (***v1.2.16***)
 
 ## 3 Lokale Installation
 
@@ -38,51 +38,51 @@ Dieses Repository enthält alle Projekte, die ich im Rahmen eines Creative Codin
 
 - Browser mit Zugriff auf das Internet
 
-**Optional aber empfohlen:**
+**Optional, aber empfohlen:**
 
 - VSCode
 - Live Server extension für VSCode von Ritwick Dey
 
 > [!NOTE]
-> **Da für die Funktionalität einiger Projekte der Live Server gebraucht wird, empfehle ich VSCode zu benutzen.** \
-> Weitere Informationen zu Projekten mit Live Server finden Sie [hier]().
+> **Für die Funktionalität einiger Projekte wird der Live Server benötigt, daher wird empfohlen, mit VSCode zu arbeiten.** \
+> Weitere Informationen dazu unter [Projekte mit Live Server]().
 
-## 3.1 [GitHub Repo](https://github.com/radblts/creativeCoding) heruterladen und extrahieren
+## 3.1 [Repository](https://github.com/radblts/creativeCoding) heruterladen und extrahieren
 
-1. Oben rechts auf `Code` drücken\
-2. Tab `Local`selektieren\
+1. Oben rechts auf `Code` drücken
+2. Tab `Local`selektieren
 3. `Download ZIP` auswählen
 
-![](#)
+![Bild](#)
 
-4. Speicherort öffnen z.B. `Downloads`\
-5. ZIP-Ordner selektieren und rechte Maustaste drücken\
+4. Speicherort öffnen z.B. `Downloads`
+5. ZIP-Datei mit Rechtsclick auswählen
 6. `Extract All` auswählen
 
-![](#)
+![Bild](#)
 
 > [!NOTE]
-> Das Projekt kann nun in VSCode ([Schritt 2a]()) oder direkt vom Ordnerverzeichnis ([Schritt 2b]() geöffnet werden. **Da für einige der Projekte der Live Server gebraucht wird, empfehle ich VSCode zu benutzen.**
+>Das Projekt kann nun in VSCode ([Schritt 2a](#32a-projekt-in-vscode-öffnen)) oder direkt über den Dateiexplorer ([Schritt 2b](#32b-projekt-im-dateiexplorer-öffnen)) geöffnet werden. 
 
 ## 3.2a Projekt in VSCode öffnen
 
-1. VSCode öffnen\
-2. Der extrahierte Ordner mit drag-and-drop in das Programm ziehen
+1. VSCode öffnen
+2. Den extrahierten Projektordner per **Drag-and-Drop** in das Programm ziehen
 
 > [!NOTE]
-> Alternativ kann man den Ordner auch über `File -> Open Folder -> [pathToFolder]` öffnen.
+> Alternativ: `File → Open Folder → [Pfad zum Projektordner]`.
 
-Somit sollte man diese Ordnerstruktur auf der linken Seite in VSCode sehen:
+In VSCode sollte nun die Projektstruktur im Seitenmenü sichtbar sein:
 
-![](#)
+![Bild](#)
 
-3. Man kann nun mit der Extension`Live Server` den Server unten rechts in VSCode starten.
+3. Unten rechts auf `Go Live` klicken (Live Server starten)
 
-![](#)
+![Bild](#)
 
 Nun sollte das Projekt in einem Browser (z.B. `Microsoft Edge`, `Firefox` oder `Chrome`) geöffnet sein.
 
-## 3.2b Projekt im Ordnerverzeichnis öffnen
+## 3.2b Projekt im Dateiexplorer öffnen
 
 1. Der extrahierte Ordner öffnen\
 2. Den `#` öffnen\
