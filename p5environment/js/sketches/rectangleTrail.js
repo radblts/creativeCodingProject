@@ -1,7 +1,7 @@
 let r, g, b;
 
 function setup() {
-  createCanvas(2000, 1000);
+  createCanvas(windowWidth, windowHeight);
 
   r = random(255);
   g = random(255);

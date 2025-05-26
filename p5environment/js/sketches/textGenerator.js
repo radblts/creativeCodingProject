@@ -6,7 +6,7 @@ let regenerateBtn;
 
 //Load text
 function preload() {
-  txt = loadStrings("../assets/sketch08/shakespeare.txt");
+  txt = loadStrings("../../assets/textGenerator/shakespeare.txt");
 }
 
 function setup() {

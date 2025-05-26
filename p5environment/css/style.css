@@ -1,3 +1,4 @@
+/* Root variables */
 :root {
   --color1: #0a0a0a;
   --color2: #1f1f1f;
@@ -6,7 +7,6 @@
   --accent2: #9abca7;
   --accent3: #d79233;
   --accent4: #dda455;
-
   --fontSize: x-large;
 }
 
@@ -15,10 +15,10 @@ body {
   max-width: 100%;
   margin: 0;
   padding: 0;
-
   background-color: var(--color1);
   color: var(--color3);
   font-size: var(--fontSize);
+  font-family: Arial, sans-serif;
 }
 
 a {
@@ -28,4 +28,67 @@ a {
 
 a:hover {
   color: var(--accent2);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: var(--color2);
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar > li {
+  padding: 15px 20px;
+}
+
+.navbar > li > a {
+  color: var(--color3);
+  text-decoration: none;
+  display: block;
+}
+
+.navbar > li:hover {
+  background-color: var(--color2);
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--color2);
+  min-width: 100%;
+  z-index: 1;
+  list-style: none;
+}
+
+.dropdown li {
+  padding: 12px 16px;
+}
+
+.dropdown li a {
+  color: var(--color3);
+  text-decoration: none;
+}
+
+.dropdown li:hover {
+  background-color: var(--accent1);
+}
+
+.navbar li:hover .dropdown {
+  display: block;
 }
