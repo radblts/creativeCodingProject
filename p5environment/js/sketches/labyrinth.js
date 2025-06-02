@@ -1,13 +1,13 @@
 function setup() {
-  createCanvas(2000, 1000);
+  createCanvas(windowWidth, windowHeight);
   noLoop();
 }
 
 function draw() {
   background("white");
 
-  let cols = 30;
-  let rows = 30;
+  let cols = 40;
+  let rows = 40;
   let size = width / cols;
 
   for (let i = 0; i < cols; i++) {

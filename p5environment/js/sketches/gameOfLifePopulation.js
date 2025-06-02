@@ -4,7 +4,7 @@ let current = [];
 let next = [];
 
 function setup() {
-  createCanvas(2000, 1000);
+  createCanvas(windowWidth, windowHeight);
   frameRate(10);
 
   columns = floor(width / cellSize);
