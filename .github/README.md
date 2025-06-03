@@ -53,13 +53,11 @@ Dieses Repository enthält alle Projekte, die ich im Rahmen eines Creative Codin
 2. Tab `Local`selektieren
 3. `Download ZIP` auswählen
 
-![Bild](#)
+![Bild](assets/img1.png)
 
 4. Speicherort öffnen z.B. `Downloads`
 5. ZIP-Datei mit Rechtsclick auswählen
 6. `Extract All` auswählen
-
-![Bild](#)
 
 > [!NOTE]
 >Das Projekt kann nun in VSCode ([Schritt 2a](#32a-projekt-in-vscode-öffnen)) oder direkt über den Dateiexplorer ([Schritt 2b](#32b-projekt-im-dateiexplorer-öffnen)) geöffnet werden. 
