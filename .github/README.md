@@ -78,8 +78,6 @@ In VSCode sollte nun die Projektstruktur im Seitenmenü sichtbar sein:
 
 4. Unten rechts auf `Go Live` klicken (Live Server starten)
 
-![Bild](assets/img3.png)
-
 Nun sollte das Projekt in einem Browser (z.B. `Microsoft Edge`, `Firefox` oder `Chrome`) geöffnet sein.
 
 ## 3.2b Projekt im Dateiexplorer öffnen
