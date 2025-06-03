@@ -72,28 +72,20 @@ Dieses Repository enthält alle Projekte, die ich im Rahmen eines Creative Codin
 
 In VSCode sollte nun die Projektstruktur im Seitenmenü sichtbar sein:
 
-![Bild](#)
+![Bild](assets/img2.png)
 
-3. Unten rechts auf `Go Live` klicken (Live Server starten)
+3. Die Datei `index.html`, im Pfad `p5environment/html/`, öffnen
 
-![Bild](#)
+4. Unten rechts auf `Go Live` klicken (Live Server starten)
+
+![Bild](assets/img3.png)
 
 Nun sollte das Projekt in einem Browser (z.B. `Microsoft Edge`, `Firefox` oder `Chrome`) geöffnet sein.
 
 ## 3.2b Projekt im Dateiexplorer öffnen
 
-1. Der extrahierte Ordner öffnen\
-2. Den `#` öffnen\
-3. Den `#`-Ordner ebenfalls öffnen
-
-Der Pfad sollte dann so aussehen: `[Speicherort]\#`
-
-4. `index.html` mit einem Doppelklick öffnen
-
-> [!NOTE]
-> Alternativ kann man auch das `index.html` auswählen und mit einem Rechtsklick und `Open` / `Open with` das Projekt in einem Browser öffnen.
-
-![](#)
+1. Der extrahierte Ordner öffnen
+2. Das `index.html`-File öffnen (Im Pfad `[creativeCodingProject-main/p5environment/html]`)
 
 Nun sollte das Projekt in einem Browser (z.B. `Microsoft Edge`, `Firefox` oder `Chrome`) geöffnet sein.
 
