@@ -74,7 +74,7 @@ In VSCode sollte nun die Projektstruktur im Seitenmenü sichtbar sein:
 
 ![Bild](assets/img2.png)
 
-3. Die Datei `index.html`, im Pfad `p5environment/html/`, öffnen
+3. Die Datei `index.html`, im Pfad `p5environment/html`, öffnen
 
 4. Unten rechts auf `Go Live` klicken (Live Server starten)
 
