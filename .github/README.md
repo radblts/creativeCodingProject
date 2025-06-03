@@ -11,8 +11,7 @@ Dieses Repository enthält alle Projekte, die ich im Rahmen eines Creative Codin
    3.2a [In VSCode öffnen](#22a-projekt-in-vscode-öffnen)\
    3.2b [Im Dateiexplorer öffnen](#22b-projekt-im-dateiexplorer-öffnen)
 4. [Projekte mit Live Server](#3-projekte-mit-live-server)
-5. [p5.js](#4-p5js)
-6. [Autor](#5-autor)
+5. [Autor](#5-autor)
 
 ## 1 Showcase
 [TBA]
@@ -91,10 +90,7 @@ Nun sollte das Projekt in einem Browser (z.B. `Microsoft Edge`, `Firefox` oder `
 ## 4. Projekte mit Live Server
 [TBA]
 
-## 5. p5.js
-[TBA]
-
-## 6. Autor
+## 5. Autor
 
 **Neva Roten**
 
