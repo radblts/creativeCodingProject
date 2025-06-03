@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(99, 99, 99);
+  display: flex;
+  flex-direction: column;
+  transform: translateY(-95vh);
+  transition: transform 0.5s ease;
+  z-index: 10;
+}
+
+.navigation.open {
+  transform: translateY(0);
+}
+
+.nav-main {
+  height: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-toggle {
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(99, 99, 99);
+}
+
+#openNavArrow {
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Layout Styles */
+.container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#column1,
+#column2 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+#column1 {
+  justify-content: flex-end;
+}
+
+#column2 {
+  justify-content: flex-start;
+}
+
+#column1 ul,
+#column2 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#column1 ul {
+  display: inline-block;
+  transform: translateX(0);
+  transition: transform 0.5s ease;
+}
+
+#column1.slide-start ul {
+  animation: slideLeft 0.8s forwards;
+}
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-20vw);
+  }
+}
+
+/* Animation for column2 content */
+#column2 ul.animate {
+  animation: fadeSlideIn 0.5s ease forwards;
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
