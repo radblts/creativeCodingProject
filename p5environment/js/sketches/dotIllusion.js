@@ -1,8 +1,9 @@
 let cols, rows;
-let spacing = 19;
+let spacing = 23;
 
 function setup() {
-  createCanvas(windowWidth / 1.5, windowHeight / 1.5);
+  canvas = createCanvas(windowWidth / 1.5, windowHeight / 1.5);
+  canvas.parent(document.querySelector('.content'));
   cols = width / spacing;
   rows = height / spacing;
   noStroke();

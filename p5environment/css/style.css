@@ -18,7 +18,7 @@ body {
   background-color: var(--color2);
   color: var(--color3);
   font-size: var(--fontSize);
-  font-family: Arial, sans-serif;;
+  font-family: Arial, sans-serif;
 }
 
 a {
@@ -37,10 +37,27 @@ a:hover {
 }
 
 .content {
-  margin-top: 5%;
+  margin: 8%;
+}
+
+.sketch {
+  margin: 5%;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
 }
 
 canvas {
   margin: auto;
+  border-radius: 2rem;
+}
+
+.codeBlock {
+  background-color: #2c2c2c;
+  width: 100%;
+  margin: 5% 0;
+  padding: 5% 0;
   border-radius: 2rem;
 }

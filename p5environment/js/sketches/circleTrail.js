@@ -1,13 +1,15 @@
 let hueValue = 0; // starting hue
 
 function setup() {
-  createCanvas(windowWidth / 1.5, windowHeight / 1.5);
+  canvas = createCanvas(windowWidth / 1.2, windowHeight / 1.5);
+  canvas.parent(document.querySelector('.sketch'));
   background(255);
+  
   colorMode(HSB, 360, 100, 100);
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth / 1.5, windowHeight / 1.5);
+  resizeCanvas(windowWidth / 1.2, windowHeight / 1.5);
   background(255);
 }
 
