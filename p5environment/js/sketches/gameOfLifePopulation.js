@@ -4,7 +4,7 @@ let current = [];
 let next = [];
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth / 1.5, windowHeight / 1.5);
   frameRate(10);
 
   columns = floor(width / cellSize);
@@ -20,6 +20,11 @@ function setup() {
   }
 
   noLoop(); 
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth / 1.5, windowHeight / 1.5);
+  background(255);
 }
 
 function draw() {

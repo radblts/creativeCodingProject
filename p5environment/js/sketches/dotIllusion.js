@@ -1,13 +1,18 @@
 let cols, rows;
-let spacing = 20;
+let spacing = 19;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth / 1.5, windowHeight / 1.5);
   cols = width / spacing;
   rows = height / spacing;
   noStroke();
   fill(255);
   background(0);
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth / 1.5, windowHeight / 1.5);
+  background(255);
 }
 
 function draw() {

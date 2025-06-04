@@ -1,6 +1,11 @@
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth / 1.5, windowHeight / 1.5);
   noLoop();
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth / 1.5, windowHeight / 1.5);
+  background(255);
 }
 
 function draw() {

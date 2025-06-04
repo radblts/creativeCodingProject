@@ -1,11 +1,16 @@
 let r, g, b;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth / 1.5, windowHeight / 1.5);
 
   r = random(255);
   g = random(255);
   b = random(255);
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth / 1.5, windowHeight / 1.5);
+  background(255);
 }
 
 function draw() {
