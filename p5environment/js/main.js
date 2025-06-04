@@ -14,9 +14,6 @@ document.getElementById("openNavArrow").addEventListener("click", function () {
   }
 });
 
-const categoryOne = document.getElementById("category1");
-const categoryTwo = document.getElementById("category2");
-
 function slideColumn1() {
   column1.classList.add("slide-start");
 }
@@ -30,23 +27,3 @@ function setColumn2Content(html) {
   void ul.offsetWidth; // trigger reflow
   ul.classList.add("animate");
 }
-
-categoryOne.addEventListener("click", function () {
-  slideColumn1();
-  setColumn2Content(`
-    <ul>
-      <li><a href="#">purr</a></li>
-      <li><a href="#">nap</a></li>
-    </ul>
-  `);
-});
-
-categoryTwo.addEventListener("click", function () {
-  slideColumn1();
-  setColumn2Content(`
-    <ul>
-      <li><a href="#">bark</a></li>
-      <li><a href="#">fetch</a></li>
-    </ul>
-  `);
-});

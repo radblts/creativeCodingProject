@@ -6,53 +6,34 @@
     <title>Game Of Life (population) | Creative Coding</title>
 
     <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="../../css/navStyle.css" />
 
     <script src="../../libraries/p5.min.js"></script>
     <script src="../../libraries/p5.sound.min.js"></script>
   </head>
   <body>
-    <nav>
-      <ul class="navbar">
-        <li><a href="../index.html">Home</a></li>
+    <div class="navigation">
+      <div class="nav-main">
+        <div class="container">
+          <div id="column1">
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li id="category1"><a href="#">Patterns & Motion</a></li>
+              <li id="category2"><a href="#">Image Effects</a></li>
+              <li id="category3"><a href="#">Generative Systems</a></li>
+              <li id="category4"><a href="#">Algorithms & Simulations</a></li>
+            </ul>
+          </div>
+          <div id="column2"></div>
+        </div>
+      </div>
+      <div class="nav-toggle">
+        <div id="openNavArrow">▼</div>
+      </div>
+    </div>
 
-        <li>
-          <p>Patterns & Motion</p>
-          <ul class="dropdown">
-            <li><a href="labyrinth.html">Labyrinth</a></li>
-            <li><a href="rectangleTrail.html">Rectangle Trail</a></li>
-            <li><a href="circleTrail.html">Circle Trail</a></li>
-            <li><a href="dotIllusion.html">Dot Illusion</a></li>
-          </ul>
-        </li>
-
-        <li>
-          <p>Image Effects</p>
-          <ul class="dropdown">
-            <li><a href="invertFilter.html">Invert Filter</a></li>
-            <li><a href="pixelSorter.html">Pixel Sorter</a></li>
-            <li><a href="dithering.html">Dithering</a></li>
-          </ul>
-        </li>
-
-        <li>
-          <p>Generative Systems</p>
-          <ul class="dropdown">
-            <li><a href="fractalTree.html">Fractal Tree</a></li>
-          </ul>
-        </li>
-
-        <li>
-          <p>Algorithms & Simulations</p>
-          <ul class="dropdown">
-            <li><a href="textGenerator.html">Text Generator</a></li>
-            <li><a href="gameOfLife.html">Game Of Life</a></li>
-            <li>
-              <a href="gameOfLifePopulation.html">Game Of Life (population)</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
+    <script src="../../js/main.js"></script>
+    <script src="../../js/sketchNavLinks.js"></script>
 
     <script src="../../js/sketches/gameOfLifePopulation.js"></script>
   </body>

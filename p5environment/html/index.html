@@ -6,48 +6,31 @@
     <title>Home | Creative Coding</title>
 
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/navStyle.css" />
   </head>
   <body>
-    <nav>
-      <ul class="navbar">
-        <li><a href="index.html" class="active">Home</a></li>
+    <div class="navigation">
+      <div class="nav-main">
+        <div class="container">
+          <div id="column1">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li id="category1"><a href="#">Patterns & Motion</a></li>
+              <li id="category2"><a href="#">Image Effects</a></li>
+              <li id="category3"><a href="#">Generative Systems</a></li>
+              <li id="category4"><a href="#">Algorithms & Simulations</a></li>
+            </ul>
+          </div>
+          <div id="column2"></div>
+        </div>
+      </div>
+      <div class="nav-toggle">
+        <div id="openNavArrow">▼</div>
+      </div>
+    </div>
 
-        <li>
-          <p>Patterns & Motion</p>
-          <ul class="dropdown">
-            <li><a href="sketches/labyrinth.html">Labyrinth</a></li>
-            <li><a href="sketches/rectangleTrail.html">Rectangle Trail</a></li>
-            <li><a href="sketches/circleTrail.html">Circle Trail</a></li>
-            <li><a href="sketches/dotIllusion.html">Dot Illusion</a></li>
-          </ul>
-        </li>
-
-        <li>
-          <p>Image Effects</p>
-          <ul class="dropdown">
-            <li><a href="sketches/invertFilter.html">Invert Filter</a></li>
-            <li><a href="sketches/pixelSorter.html">Pixel Sorter</a></li>
-            <li><a href="sketches/dithering.html">Dithering</a></li>
-          </ul>
-        </li>
-
-        <li>
-          <p>Generative Systems</p>
-          <ul class="dropdown">
-            <li><a href="sketches/fractalTree.html">Fractal Tree</a></li>
-          </ul>
-        </li>
-
-        <li>
-          <p>Algorithms & Simulations</p>
-          <ul class="dropdown">
-            <li><a href="sketches/textGenerator.html">Text Generator</a></li>
-            <li><a href="sketches/gameOfLife.html">Game Of Life</a></li>
-            <li><a href="sketches/gameOfLifePopulation.html">Game Of Life (population)</a></li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
+    <script src="../js/main.js"></script>
+    <script src="../js/homeNavLinks.js"></script>
 
     <h1>Creative Coding</h1>
     <p>This is a school project.</p>
