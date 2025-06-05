@@ -11,6 +11,7 @@ categoryOne.addEventListener("click", function () {
       <li><a href="sketches/rectangleTrail.html">Rectangle Trail</a></li>
       <li><a href="sketches/circleTrail.html">Circle Trail</a></li>
       <li><a href="sketches/dotIllusion.html">Dot Illusion</a></li>
+      <li><a href="sketches/ballSort.html">Ball Sort</a></li>
     </ul>
   `);
 });
