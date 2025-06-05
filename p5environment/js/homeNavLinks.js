@@ -23,6 +23,7 @@ categoryTwo.addEventListener("click", function () {
       <li><a href="sketches/invertFilter.html">Invert Filter</a></li>
       <li><a href="sketches/pixelSorter.html">Pixel Sorter</a></li>
       <li><a href="sketches/dithering.html">Dithering</a></li>
+      <li><a href="sketches/glitchEffect.html">Glitch Effect</a></li>
       <li><a href="sketches/imgCombiner.html">Image Combiner</a></li>
     </ul>
   `);
