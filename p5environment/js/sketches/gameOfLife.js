@@ -4,7 +4,9 @@ let current = [];
 let next = [];
 
 function setup() {
-  createCanvas(windowWidth / 1.5, windowHeight / 1.5);
+  canvas = createCanvas(windowWidth / 1.2, windowHeight / 1.5);
+  canvas.parent(document.querySelector('.sketch'));
+  background(255);
   frameRate(10);
 
   columns = floor(width / cellSize);

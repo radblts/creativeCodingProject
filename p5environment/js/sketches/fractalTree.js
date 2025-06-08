@@ -63,11 +63,15 @@ function genVisual() {
 }
 
 function setup() {
-  createCanvas(400, 400);
+  canvas = createCanvas(windowWidth / 1.2, windowHeight / 1.5);
+  canvas.parent(document.querySelector('.sketch'));
+  background(255);
   angle = radians(25);
   background(51);
   genVisual();
   button = createButton("generate");
+  button.parent(document.querySelector('.sketch'));
+  button.position(width * 0.95, height * 0.95);
   button.mousePressed(genString);
 }
 

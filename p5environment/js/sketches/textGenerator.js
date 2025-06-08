@@ -2,7 +2,7 @@ let txt;
 let markov = {};
 let order = 2;
 let generatedText = "";
-let regenerateBtn;
+let button;
 
 //Load text
 function preload() {
@@ -10,15 +10,18 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(600, 400);
+  canvas = createCanvas(windowWidth / 1.2, windowHeight / 1.5);
+  canvas.parent(document.querySelector('.sketch'));
+  background(255);
   background(240);
   textFont("Courier New");
   textSize(14);
   fill(20);
 
-  regenerateBtn = createButton("Regenerate Text");
-  regenerateBtn.position(10, height + 10);
-  regenerateBtn.mousePressed(redrawText);
+  button = createButton("Regenerate Text");
+  button.parent(document.querySelector('.sketch'));
+  button.position(width * 0.50, height * 0.95);
+  button.mousePressed(redrawText);
 
   let fullText = txt.join(" ");
   let words = fullText

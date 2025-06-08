@@ -1,7 +1,9 @@
 let agents = [];
 
 function setup() {
-  createCanvas(600, 400);
+  canvas = createCanvas(windowWidth / 1.2, windowHeight / 1.5);
+  canvas.parent(document.querySelector('.sketch'));
+  background(255);
   for (let i = 0; i < 100; i++) {
     agents.push(new Agent(random(width), random(height)));
   }

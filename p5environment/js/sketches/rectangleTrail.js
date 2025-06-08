@@ -1,7 +1,9 @@
 let r, g, b;
 
 function setup() {
-  createCanvas(windowWidth / 1.5, windowHeight / 1.5);
+  canvas = createCanvas(windowWidth / 1.2, windowHeight / 1.5);
+  canvas.parent(document.querySelector('.sketch'));
+  background(255);
 
   r = random(255);
   g = random(255);

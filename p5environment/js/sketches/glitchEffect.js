@@ -7,7 +7,9 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(img.width, img.height);
+  canvas = createCanvas(windowWidth / 1.2, windowHeight / 1.5);
+  canvas.parent(document.querySelector('.sketch'));
+  background(255);
   glitchImg = createImage(img.width, img.height);
   frameRate(5);
 }

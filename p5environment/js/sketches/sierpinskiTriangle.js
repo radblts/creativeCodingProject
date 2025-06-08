@@ -11,11 +11,14 @@ let iterations = 0;
 const maxIterations = 6;
 
 function setup() {
-  createCanvas(800, 600);
+  canvas = createCanvas(windowWidth / 1.2, windowHeight / 1.5);
+  canvas.parent(document.querySelector('.sketch'));
+  background(255);
   angle = PI / 3; // 60 degrees
 
   button = createButton("generate");
-  button.position(10, height + 10);
+  button.parent(document.querySelector('.sketch'));
+  button.position(width * 0.95, height * 0.95);
   button.mousePressed(generate);
 
   stroke(0);

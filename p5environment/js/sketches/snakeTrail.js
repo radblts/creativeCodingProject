@@ -2,7 +2,9 @@ let x, y;
 let trail = [];
 
 function setup() {
-  createCanvas(400, 400);
+  canvas = createCanvas(windowWidth / 1.2, windowHeight / 1.5);
+  canvas.parent(document.querySelector('.sketch'));
+  background(255);
   x = width / 2;
   y = height / 2;
   noStroke();
