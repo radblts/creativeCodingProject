@@ -4,12 +4,16 @@ let hueVal = 0;
 let speedSlider;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  canvas = createCanvas(windowWidth / 1.2, windowHeight / 1.5);
+  canvas.parent(document.querySelector('.sketch'));
   colorMode(HSB, 360, 100, 100, 100);
 
   speedSlider = createSlider(0, 3, 1, 0.01);
+  speedSlider.parent(document.querySelector('.sketch'));
   speedSlider.position(20, 20);
   speedSlider.style('width', '200px');
+  speedSlider.style('position', 'absolute'); // Now runs after creation
+  speedSlider.parent(document.querySelector('.sketch')); // Same here
 
   for (let i = 0; i < pendulumCount; i++) {
     pendulums.push({

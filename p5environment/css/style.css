@@ -53,3 +53,13 @@ canvas {
   margin: auto;
   border-radius: 2rem;
 }
+
+
+.sketch {
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 5;
+}

@@ -2,8 +2,8 @@ let cols, rows;
 let spacing = 23;
 
 function setup() {
-  canvas = createCanvas(windowWidth / 1.5, windowHeight / 1.5);
-  canvas.parent(document.querySelector('.content'));
+  canvas = createCanvas(windowWidth / 1.2, windowHeight / 1.5);
+  canvas.parent(document.querySelector('.sketch'));
   cols = width / spacing;
   rows = height / spacing;
   noStroke();

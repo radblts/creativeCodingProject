@@ -9,7 +9,8 @@ let wallHeight = 0.5;
 let palette = [];
 
 function setup() {
-  createCanvas(800, 600);
+  canvas = createCanvas(windowWidth / 1.2, windowHeight / 1.5);
+  canvas.parent(document.querySelector('.sketch'));
 
   palette = [
     color(255, 100, 100),
