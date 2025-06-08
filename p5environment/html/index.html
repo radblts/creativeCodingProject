@@ -31,8 +31,8 @@
 
     <div class="content">
       <h1>Creative Coding</h1>
-      <p>This is a school project.</p>
 
+      <div class="comments">
       <div class="comment-section">
       <h2>Leave a Comment</h2>
       <input id="authorInput" type="text" placeholder="Your name" /><br /><br />
@@ -42,12 +42,14 @@
       ></textarea
       ><br />
       <button onclick="addComment()">Submit</button>
-
-      <h3>Comments:</h3>
-      <div id="commentList"></div>
+      <div class="commentList">
+        <h3>Comments:</h3>
+        <div id="commentList"></div>
+      </div>
+    </div>
     </div>
 
-    </div>
+    
 
     <script src="../js/main.js"></script>
     <script src="../js/homeNavLinks.js"></script>
