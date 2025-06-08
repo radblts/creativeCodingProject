@@ -2,6 +2,8 @@ var axiom = "F";
 var sentence = axiom;
 var len = 100;
 var angle;
+var iteration = 0;
+var maxIterations = 4;
 
 var rules = [];
 rules[0] = {
@@ -9,7 +11,14 @@ rules[0] = {
   b: "FF+[+F-F-F]-[-F+F+F]",
 };
 
+var button;
+
 function genString() {
+  if (iteration >= maxIterations) {
+    button.attribute("disabled", "");
+    return;
+  }
+
   len *= 0.5;
   var nextSentence = "";
   for (var i = 0; i < sentence.length; i++) {
@@ -27,7 +36,7 @@ function genString() {
     }
   }
   sentence = nextSentence;
-  createP(sentence);
+  iteration++;
   genVisual();
 }
 
@@ -57,9 +66,9 @@ function setup() {
   createCanvas(400, 400);
   angle = radians(25);
   background(51);
-  createP(axiom);
   genVisual();
-  var button = createButton("generate");
+  button = createButton("generate");
   button.mousePressed(genString);
 }
+
 function draw() {}

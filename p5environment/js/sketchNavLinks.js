@@ -12,6 +12,9 @@ categoryOne.addEventListener("click", function () {
       <li><a href="circleTrail.html">Circle Trail</a></li>
       <li><a href="dotIllusion.html">Dot Illusion</a></li>
       <li><a href="ballSort.html">Ball Sort</a></li>
+      <li><a href="switchstate.html">Switchstate</a></li>
+      <li><a href="snakeTrail.html">Snake Trail</a></li>
+      <li><a href="pendulum.html">Pendulum</a></li>
     </ul>
   `);
 });
@@ -34,6 +37,9 @@ categoryThree.addEventListener("click", function () {
   setColumn2Content(`
     <ul>
       <li><a href="fractalTree.html">Fractal Tree</a></li>
+      <li><a href="kochSnowflake.html">Koch Snowflake</a></li>
+      <li><a href="sierpinskiTriangle.html">Sierpinski Triangle</a></li>
+      <li><a href="dragonCurve.html">Dragon Curve</a></li>
     </ul>
   `);
 });

@@ -53,11 +53,3 @@ canvas {
   margin: auto;
   border-radius: 2rem;
 }
-
-.codeBlock {
-  background-color: #2c2c2c;
-  width: 100%;
-  margin: 5% 0;
-  padding: 5% 0;
-  border-radius: 2rem;
-}
