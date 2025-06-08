@@ -11,6 +11,11 @@ function setup() {
 }
 
 function windowResized() {
+  resizeCanvas(windowWidth / 1.2, windowHeight / 1.5);
+  background(255);
+}
+
+function windowResized() {
   resizeCanvas(windowWidth / 1.5, windowHeight / 1.5);
   background(255);
 }

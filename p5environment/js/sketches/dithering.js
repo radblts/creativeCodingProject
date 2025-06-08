@@ -11,6 +11,11 @@ function setup() {
   image(img, 0, 0, 400, 400);
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth / 1.2, windowHeight / 1.5);
+  background(255);
+}
+
 function draw() {}
 
 function mousePressed() {

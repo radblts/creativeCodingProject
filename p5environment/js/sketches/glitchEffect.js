@@ -14,6 +14,11 @@ function setup() {
   frameRate(5);
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth / 1.2, windowHeight / 1.5);
+  background(255);
+}
+
 function draw() {
   glitchEffect();
   image(glitchImg, 0, 0);

@@ -26,6 +26,11 @@ function setup() {
   noLoop(); 
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth / 1.2, windowHeight / 1.5);
+  background(255);
+}
+
 function draw() {
   img1.loadPixels();
   img2.loadPixels();

@@ -24,6 +24,11 @@ function setup() {
   }
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth / 1.2, windowHeight / 1.5);
+  background(255);
+}
+
 function draw() {
   background(255);
   translate(width / 2, height / 2);

@@ -33,6 +33,11 @@ function setup() {
   redrawText();
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth / 1.2, windowHeight / 1.5);
+  background(255);
+}
+
 function redrawText() {
   background(240);
   generatedText = generateText(150);
