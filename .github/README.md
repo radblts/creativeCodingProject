@@ -40,7 +40,7 @@ Dieses Repository enthält alle Projekte, die ich im Rahmen eines Creative Codin
 > [!NOTE]
 > **Für die Funktionalität einiger Projekte wird der Live Server benötigt, daher wird empfohlen, mit VSCode zu arbeiten.**
 
-## 2.1 [Repository](https://github.com/radblts/creativeCoding) heruterladen und extrahieren
+## 2.1 [Repository](https://github.com/radblts/creativeCodingProject) heruterladen und extrahieren
 
 1. Oben rechts auf `Code` drücken
 2. Tab `Local`selektieren
