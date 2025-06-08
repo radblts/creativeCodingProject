@@ -4,7 +4,7 @@ Dieses Repository enthält alle Projekte, die ich im Rahmen eines Creative Codin
 
 ## Inhaltsverzeichnis
 
-1. [Showcase](#1-showcase)
+1. [Tools]()
 2. [Lokale Installation](#2-lokale-installation)\
    2.1 [Repo herunterladen und extrahieren](#21-github-repo-heruterladen-und-extrahieren)\
    2.2a [In VSCode öffnen](#22a-projekt-in-vscode-öffnen)\
